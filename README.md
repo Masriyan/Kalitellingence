@@ -25,13 +25,13 @@ cd Kalitellingence
 
 ### **2. Make the Script Executable**
 ```bash
-chmod +x kali_intel_setup.sh
+chmod +x kalitelligence.sh
 ```
 
 ### **3. Run the Script**
 Execute the script with **root privileges**:
 ```bash
-sudo ./kali_intel_setup.sh
+sudo ./kalitelligence.sh
 ```
 
 This will install and configure all required tools automatically.
