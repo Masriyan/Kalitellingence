@@ -18,7 +18,7 @@ This repository contains a **Bash script** to automate the setup of **Kali Linux
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/Kalitellingence.git
+git clone https://github.com/Masriyan/Kalitellingence.git
 cd Kalitellingence
 ```
 
@@ -141,4 +141,4 @@ Feel free to contribute by submitting issues or pull requests.
 **This script is for legal and ethical cybersecurity research only.** Do not use it for unauthorized activities. The author assumes no responsibility for misuse.
 
 ## License
-This project is licensed under the MIT License. See `LICENSE` for details.
+This project is licensed. See `LICENSE` for details.
