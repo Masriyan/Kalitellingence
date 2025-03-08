@@ -1,3 +1,4 @@
+![Kalitellingence - Make Over Your Kali Linux Into Threat Intelligence Banner](https://github.com/Masriyan/Kalitellingence/blob/main/image.png)
 # Kalitellingence - Make Over Your Kali Linux Into Threat Intelligence
 
 This repository contains a **Bash script** to automate the setup of **Kali Linux** for **Threat Intelligence** tasks and **Dark Web investigations**. The script installs and configures essential tools for OSINT, reconnaissance, anonymity, and data collection, ensuring a fully operational environment for cybersecurity professionals.
