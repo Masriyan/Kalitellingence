@@ -1,5 +1,1 @@
-# Documentation and markdown files are source files, not build artifacts
-# No compiled files, dependencies, or temporary files detected in changes
-# Current .gitignore only contains general rule that should be preserved
-
-*.log
+Nothing should be ignored based on the provided file changes, as they consist only of source/config files (.md, .sh) without any build artifacts, dependencies, or temporary files.

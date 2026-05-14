@@ -54,6 +54,13 @@ Kalitelligence transforms your **Kali Linux** into a powerful workstation for **
 - **ti-feeds**: 12 threat intel sources with search and statistics
 - **ti-update**: Smart updates with rollback capability
 
+### ✨ v3.0 New Commands
+- **ti-api**: REST API server with OpenAPI/Swagger documentation at `/docs`
+- **ti-tui**: Beautiful terminal UI dashboard with live updates
+- **ti-enrich**: IOC enrichment with VirusTotal and Shodan integration
+- **ti-export**: Export data in JSON, CSV, and STIX 2.1 formats
+- **ti-playbook**: Automation playbooks using Ansible
+
 ### 🎯 New Capabilities
 - **40+ Tools** (expanded from 15)
 - **Structured Logging** with timestamps, colors, and severity levels
