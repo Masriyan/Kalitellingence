@@ -1,10 +1,27 @@
-![Kalitellingence - Make Over Your Kali Linux Into Threat Intelligence Banner](https://github.com/Masriyan/Kalitellingence/blob/main/image.png)
+![Kalitelligence - Make Over Your Kali Linux Into Threat Intelligence Banner](image.png)
 
-# Kalitellingence – Make Over Your Kali Linux Into a Threat Intelligence Workstation
+# Kalitelligence – Make Over Your Kali Linux Into a Threat Intelligence Workstation
 
-Kalitellingence transforms your **Kali Linux** into a powerful workstation for **Threat Intelligence (TI)**, **OSINT**, **External Attack Surface Management (EASM)**, **Dark-web investigations**, and **DFIR**—with **intelligent automation**, **parallel processing**, **professional reporting**, and **helper commands** that maximize productivity.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.0-green.svg)](CHANGELOG.md)
+[![Kali](https://img.shields.io/badge/platform-Kali%20Linux-26719E.svg)](https://www.kali.org/)
+[![Contributors](https://img.shields.io/github/contributors/Masriyan/Kalitelligence.svg)](CONTRIBUTING.md)
+
+Kalitelligence transforms your **Kali Linux** into a powerful workstation for **Threat Intelligence (TI)**, **OSINT**, **External Attack Surface Management (EASM)**, **Dark-web investigations**, and **DFIR**—with **intelligent automation**, **parallel processing**, **professional reporting**, and **helper commands** that maximize productivity.
 
 > ⚠️ Use only on systems/targets you are **authorized** to assess. Some tools are dual-use.
+
+---
+
+## 📋 Quick Navigation
+
+- **[Changelog](CHANGELOG.md)** - Version history and updates
+- **[Contributing](CONTRIBUTING.md)** - How to contribute to the project
+- **[Security](SECURITY.md)** - Security policy and vulnerability reporting
+- **[Code of Conduct](CODE_OF_CONDUCT.md)** - Community guidelines
+- **[Architecture](ARCHITECTURE.md)** - System architecture and design
+- **[Troubleshooting](TROUBLESHOOTING.md)** - Common issues and solutions
+- **[Gap Analysis](GAP_ANALYSIS.md)** - Current limitations and roadmap
 
 ---
 
@@ -120,17 +137,29 @@ Choose a preset to tailor your installation:
 
 ## 📦 Installation
 
+### Prerequisites
+
+- **Operating System**: Kali Linux 2024.x or later
+- **Disk Space**: Minimum 5GB (passive), 15GB+ (full preset)
+- **RAM**: 4GB minimum, 8GB recommended
+- **Network**: Stable internet connection
+- **Privileges**: Root/sudo access required for installation
+
 ### Quick Start (Basic)
+
 ```bash
-git clone https://github.com/Masriyan/Kalitellingence.git
-cd Kalitellingence
-chmod +x kali-ti-suite.sh
-sudo ./kali-ti-suite.sh --preset passive
+git clone https://github.com/Masriyan/Kalitelligence.git
+cd Kalitelligence
+chmod +x kalitelligence.sh
+sudo ./kalitelligence.sh --preset passive
 ```
 
+> **Note**: The script has been renamed from `kalitelligence.sh` to `kalitelligence.sh` for consistency.
+
 ### Advanced Installation (Full Featured)
+
 ```bash
-sudo ./kali-ti-suite.sh \
+sudo ./kalitelligence.sh \
   --preset full \
   --with-offsec \
   --with-docker \
@@ -825,7 +854,7 @@ export PATH="$PATH:$HOME/.ti-venv/bin"
 ### Debug Mode
 ```bash
 # Run installation with debug logging
-sudo ./kali-ti-suite.sh --preset full --debug
+sudo ./kalitelligence.sh --preset full --debug
 
 # Check logs
 tail -f /var/log/ti-suite/install-*.log
@@ -834,7 +863,7 @@ tail -f /var/log/ti-suite/install-*.log
 ### Getting Help
 ```bash
 # Show detailed help
-./kali-ti-suite.sh --help
+./kalitelligence.sh --help
 
 # Check command help
 quick-recon --help
@@ -849,7 +878,7 @@ new-case --help
 ### 1. Maximize Performance
 ```bash
 # Use parallel execution (adjust based on CPU cores)
-sudo ./kali-ti-suite.sh --preset full --parallel 8
+sudo ./kalitelligence.sh --preset full --parallel 8
 
 # For reconnaissance
 quick-recon -d target.com --parallel 12
@@ -858,7 +887,7 @@ quick-recon -d target.com --parallel 12
 ### 2. Enable Automation
 ```bash
 # Set up automated maintenance
-sudo ./kali-ti-suite.sh --enable-automation
+sudo ./kalitelligence.sh --enable-automation
 
 # Manual automation trigger
 ti-automate
@@ -876,7 +905,7 @@ find ~/Recon -name "*.txt" -exec cat {} \; | iocgrab
 ### 4. Use Notifications
 ```bash
 # Configure webhooks during install
-sudo ./kali-ti-suite.sh --slack-webhook "URL" --discord-webhook "URL"
+sudo ./kalitelligence.sh --slack-webhook "URL" --discord-webhook "URL"
 
 # Test notifications
 ti-notify "Test message"
@@ -885,7 +914,7 @@ ti-notify "Test message"
 ### 5. Docker for Resource Isolation
 ```bash
 # Install with Docker support
-sudo ./kali-ti-suite.sh --with-docker
+sudo ./kalitelligence.sh --with-docker
 
 # Run isolated tools
 docker run spiderfoot/spiderfoot:latest
@@ -972,8 +1001,8 @@ Built on the shoulders of giants. Special thanks to:
 
 ## 📞 Support & Community
 
-- **Issues**: [GitHub Issues](https://github.com/Masriyan/Kalitellingence/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Masriyan/Kalitellingence/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Masriyan/Kalitelligence/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Masriyan/Kalitelligence/discussions)
 - **Updates**: Watch the repository for new releases
 
 ---
